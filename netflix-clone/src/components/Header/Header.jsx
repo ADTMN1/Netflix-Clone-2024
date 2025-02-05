@@ -1,10 +1,11 @@
 import React from 'react';
-import "./Header.css"
+import "./Header.css";
 import netflixLogo from "../../assets/images/netflixLogo.png";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 const Header = () => {
     return (
         <div className="container">
@@ -28,11 +29,9 @@ const Header = () => {
                         <li><ArrowDropDownIcon className='header_icon' /></li>
                     </ul>
                 </div>
-
             </div>
         </div>
-
     );
-}
+};
 
 export default Header;
